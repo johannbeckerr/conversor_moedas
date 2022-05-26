@@ -4,7 +4,7 @@
 } 
 h1{
   text-align: center;
-  font-size: 9em;
+  font-size: 4em;
   color: #fff;
   animation: scaleText 0.5s;
 }
@@ -81,7 +81,7 @@ h1{
 @media (min-width: 800px){
   .App{
     background: linear-gradient(to right, #8a2387, #e94057, #f27121);
-    height: 100vh;
+    height: 100vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
