@@ -1,0 +1,91 @@
+ .linha{
+  display: flex;
+  justify-content: space-around;
+} 
+h1{
+  text-align: center;
+  font-size: 9em;
+  color: #fff;
+  animation: scaleText 0.5s;
+}
+@keyframes scaleText{
+  from{
+      transform: scale(0.9);
+  }
+  to{
+      transform: scale(1);
+  }
+}
+/********************* 250 *********************/
+@media (max-width: 349px){
+  h1{
+    text-align: center;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    margin-top: 0.2em;
+  }
+  .linha{
+    display: flex;
+    flex-direction: column;
+  }
+  .App{
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+}
+/********************* 250 *********************/
+/********************* 500 *********************/
+@media (min-width:350px) and (max-width: 499px) {
+  h1{
+    text-align: center;
+    font-size: 4.2em;
+    color: rgb(255, 255, 255);
+    margin-top: 0.2em;
+  }
+  .linha{
+    display: flex;
+    flex-direction: column;
+  } 
+  .App{
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   } 
+}
+/********************* 500 *********************/
+@media (min-width:500px) and (max-width: 799px) {
+  h1{
+    text-align: center;
+    font-size: 6em;
+    color: rgb(255, 255, 255);
+    margin-top: 0.2em;
+  }
+  .linha{
+    display: flex;
+    flex-direction: column;
+  } 
+  .App{
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/********************* 800 *********************/
+@media (min-width: 800px){
+  .App{
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/******************** 800 *********************/
